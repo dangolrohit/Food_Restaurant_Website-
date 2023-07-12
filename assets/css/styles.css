@@ -136,13 +136,14 @@
 
 /* About us area  */
 
-.about{
-    text-align: center;
-    padding: 50px 200px;
+.about-hero{
+  padding: 50px 200px;
+  text-align: center;
 }
 
-.about h2{
-    font-size: 30px;
+.about-hero h2{
+  text-align: center;
+  font-size: 30px;
 }
 
 
