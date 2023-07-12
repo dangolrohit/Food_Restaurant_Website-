@@ -1,0 +1,466 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Hero Page CSS for all page  */
+
+.header{
+    background: linear-gradient(0deg, rgba(0,123,185,1) 0%, rgb(167, 0, 119) 88%);
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.brand a{
+    border: 0px;
+    border-radius: 0.5rem;
+    background-color: rgb(199, 50, 12);
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 5rem;
+    padding: 0.5rem;
+    color: rgb(212, 212, 212);
+}
+
+.brand a:hover{
+    border: 0px;
+    border-radius: 0.3rem;
+    background-color: rgb(150, 38, 10);
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 5rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+.navlinks{
+    display: flex;
+    gap: 30px;
+    margin-right: 5rem;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.navlinks a:hover{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    color: white;
+    gap: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 41, 3);
+    width: auto;
+    height: 1rem;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 0.35rem;
+}
+
+.btn:hover{
+    display: flex;
+    background-color: rgb(194, 41, 3);
+    width: auto;
+    height: 1rem;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 0.35rem;
+    box-shadow: 2px 2px 5px black;
+    transition: 0.3s ease;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Items in index page  */
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.item{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 31rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    gap: 10px;
+}
+
+.item a{
+    text-decoration: none;
+    color: orange;
+    font-size: 22.5px;
+}
+
+
+/* About us area  */
+
+.about{
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.about h2{
+    font-size: 30px;
+}
+
+
+/* Our Servies area  */
+
+.services-container{
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
+.service{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    width: 31rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    gap: 10px;
+}
+
+.service img{
+    height: 31rem;
+    object-fit: cover;
+}
+
+
+
+
+/* Our gallery Area  */
+
+
+.gallery-container{
+    text-align: center;
+    margin: 20px;
+}
+
+.gallery{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.photo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    width: 31rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    gap: 10px;
+}
+
+.photo img{
+    height:20rem;
+    width: 20rem;
+    object-fit: cover;
+}
+
+
+
+/* Review Area  */
+.review-container{
+    text-align: center;
+    margin: 20px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.review{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 31rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    gap: 10px;
+}
+
+/* footer area  */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    width: auto;
+    height: 70px;
+    font-size: 20px;
+
+}
+
+  /* Menu page css codes */
+
+
+
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 30px;
+  padding: 50px;
+  background: linear-gradient(90deg, rgba(185,147,0,1) 25%, rgba(255,0,0,1) 88%);
+  ;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100rem;
+  
+}
+
+.menu-list a{
+  text-decoration: none;
+  margin: 30px;
+  background-color: rgb(184, 184, 184);
+  border: 0px;
+  border-radius: 0.5rem;
+  padding: 8px 20px;
+  font-size: 25px;
+  color: rgb(58, 58, 58);
+
+}
+
+
+.menu-list a:hover{
+  text-decoration: none;
+  margin: 30px;
+  background-color: rgb(154, 154, 204);
+  border: 0px;
+  border-radius: 0.5rem;
+  padding: 8px 20px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+
+}
+
+.menu-photo{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.menu-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0px;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 5px black;
+  padding: 20px 40px 40px 40px;
+  width: 20vw;
+  height: auto;
+  object-fit: cover;
+  background-color: azure;
+}
+
+.menu-item h3{
+  font-size: 25px;
+  margin: 5px;
+}
+
+
+
+/* CSS for Delivery page  */
+
+
+.delivery-container{
+  background: linear-gradient(180deg, rgb(14, 110, 158) 0%, rgb(167, 0, 119) 88%);
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 250px;
+  gap: 20px;
+}
+
+.delivery{
+  border: 0px;
+  border-radius: 0.3rem;
+  background: white;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 50px 50px 100px 50px;
+  width: 25rem;
+}
+
+.availability{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.submit{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.submit input{
+  border: 1px solid rgb(177, 177, 177);
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 0.3rem;
+}
+
+.availibility-btn{
+  color: white;
+  background-color: rgb(121, 64, 226);
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 0.3rem;
+}
+
+
+/* CSS for about page  */
+
+.about-container{
+  background: linear-gradient(180deg, rgb(47, 154, 207) 0%, rgb(118, 42, 189) 88%);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.about-container h2{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  font-size: 30px;
+}
+.about-list{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 50px;
+}
+
+.about img{
+  border: 0px;
+  border-radius: 0.3rem;
+  width: 30vw;
+}
+
+
+
+/* CSS for Contant us page  */
+
+.contact-container{
+  background: linear-gradient(180deg, rgb(14, 110, 158) 0%, rgb(167, 0, 119) 88%);
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 250px;
+  gap: 20px;
+}
+
+#contact{
+  border: 0px;
+  border-radius: 0.3rem;
+  background: white;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  gap: 20px;
+  margin-top: 50px 50px 100px 50px;
+  width: 25rem;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+#contact h3 p{
+  text-align: left;
+}
+
+#contact h2{
+  text-align: center;
+}
